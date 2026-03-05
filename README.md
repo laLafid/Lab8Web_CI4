@@ -123,7 +123,7 @@ untuk WebApp simple
 
     - Buat [index.php](app/Views/index.php) di dalam folder ```app/Views```
 
-    - Masukin data ke tabel ```artikel``` 
+    - Masukin data ke tabel ```artikel``` di db
     ```sql
     INSERT INTO artikel (judul, isi, slug) VALUE
     ('Artikel pertama', 'Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah
@@ -149,9 +149,9 @@ untuk WebApp simple
     });
     ```
 
-    - Nah, buat folder artikel di ```app/Views`` isi pake [index.php](app/Views/index.php), [detail.php](app/Views/artikel/detail.php), [admin_index.php](app/Views/artikel/admin_index.php), [form_add.php](app/Views/artikel/form_add.php), [form_edit.php](app/Views/artikel/form_edit.php).
+    - Nah, buat folder artikel di ```app/Views``` isi pake [index.php](app/Views/index.php), [detail.php](app/Views/artikel/detail.php), [admin_index.php](app/Views/artikel/admin_index.php), [form_add.php](app/Views/artikel/form_add.php), [form_edit.php](app/Views/artikel/form_edit.php).
 
-    - Di ```app/Views/template`` tambahin [admin_header.php](app/Views/template/admin_header.php) dan [admin_footer.php](app/Views/template/admin_footer.php).
+    - Di ```app/Views/template``` tambahin [admin_header.php](app/Views/template/admin_header.php) dan [admin_footer.php](app/Views/template/admin_footer.php).
 
 
 
